@@ -1,0 +1,144 @@
+.navbar{
+    background: #000;    
+}
+.navbar .nav-item{
+    padding-right: 1rem;
+    text-transform: uppercase;
+}
+.navbar .nav-item:last-child{
+    padding-right: 0;
+}
+
+#showcase .carousel-item{
+    height: 450px;
+}
+#showcase .carousel-img-1{
+    background: url('../img/image1.jpeg');
+}
+#showcase .carousel-img-2{
+    background: url('../img/image2.jpeg');
+}
+#showcase .carousel-img-3{
+    background: url('../img/image3.jpeg');
+}
+
+#homeicon .fas{
+    font-size: 50px;
+}
+#getstarted{
+    position: relative;
+    background: url('../img/bg1.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    background-size: cover;
+}
+#getstarted .dark-overlay{
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#home-video{
+    background: url('../img/people.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    
+}
+#home-video .dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: (0,0,0,0.7);
+}
+
+#home-video .fas{
+    font-size: 50px;
+    color: red;
+}
+
+#gallery img{
+    min-height: 250px;
+}
+#copyright{
+    background: #000;
+}
+#page-header{
+    background: url('../img/image1.jpeg');
+    height: 200px;
+    background-attachment: fixed;
+    background-size: cover
+}
+#about-info img{
+    width: 350px;
+    height: 350px;
+}
+#icon-boxed .fas{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#icon-boxed .fab{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#testimonial .slick-prev:before{
+    color: #000;
+}
+#testimonial .slick-next:before{
+    color: #000;
+}
+#services-page-header{
+    background-image: url('../img/image2.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 200px;
+}
+#blog-page-header{
+    background-image: url('../img/image3.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 200px;
+}
+#contact-page-header{
+    background-image: url('../img/image3.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 200px;
+}
+
+@media(max-width: 767px){
+    .navbar .nav-item{
+        border-bottom: 1px dotted #333;
+    }
+    .navbar .nav-item:last-child{
+        border-bottom: 0;
+    }
+    #getstarted{
+        min-height: 300px;
+    }
+    #gallery img{
+        border-bottom: 1px solid #fff;
+    }
+}
+
+
+@media(max-width: 480px){
+    .carousel-caption h2{
+        font-size: 2.5rem;
+    }
+    #getstarted{
+        min-height: 350px;
+    }
+}
+@media(max-width: 400px){
+    #getstarted{
+        min-height: 400px;
+    }
+}
